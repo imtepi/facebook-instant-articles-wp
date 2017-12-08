@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a2cc31f65a3b6fe00400e4da6e1ef5f",
-    "content-hash": "eaee25ff0d1638dc2a061e4bd67a9f47",
+    "content-hash": "051063ec0776d4a8678976937e03dca0",
     "packages": [
         {
             "name": "apache/log4php",
@@ -35,7 +34,7 @@
                 "logging",
                 "php"
             ],
-            "time": "2012-10-26 09:13:25"
+            "time": "2012-10-26T09:13:25+00:00"
         },
         {
             "name": "facebook/facebook-instant-articles-sdk-extensions-in-php",
@@ -85,7 +84,7 @@
                 "instantarticles",
                 "sdk"
             ],
-            "time": "2017-06-26 19:59:19"
+            "time": "2017-06-26T19:59:19+00:00"
         },
         {
             "name": "facebook/facebook-instant-articles-sdk-php",
@@ -136,20 +135,20 @@
                 "instant",
                 "sdk"
             ],
-            "time": "2017-06-20 13:45:09"
+            "time": "2017-06-20T13:45:09+00:00"
         },
         {
             "name": "facebook/graph-sdk",
-            "version": "5.5.0",
+            "version": "5.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/php-graph-sdk.git",
-                "reference": "93d7dc87e55a541d2e27d38f3aed40abbffdf6e1"
+                "reference": "2f9639c15ae043911f40ffe44080b32bac2c5280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/93d7dc87e55a541d2e27d38f3aed40abbffdf6e1",
-                "reference": "93d7dc87e55a541d2e27d38f3aed40abbffdf6e1",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/2f9639c15ae043911f40ffe44080b32bac2c5280",
+                "reference": "2f9639c15ae043911f40ffe44080b32bac2c5280",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +193,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2017-04-20 14:15:02"
+            "time": "2017-08-16T17:28:07+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -247,7 +246,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-01 14:31:55"
+            "time": "2017-05-01T14:31:55+00:00"
         }
     ],
     "packages-dev": [
@@ -327,7 +326,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-05-22 02:43:20"
+            "time": "2017-05-22T02:43:20+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
@@ -363,7 +362,7 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2017-03-20 23:17:58"
+            "time": "2017-03-20T23:17:58+00:00"
         }
     ],
     "aliases": [],
