@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a2cc31f65a3b6fe00400e4da6e1ef5f",
     "content-hash": "eaee25ff0d1638dc2a061e4bd67a9f47",
     "packages": [
         {
@@ -35,7 +34,7 @@
                 "logging",
                 "php"
             ],
-            "time": "2012-10-26 09:13:25"
+            "time": "2012-10-26T09:13:25+00:00"
         },
         {
             "name": "facebook/facebook-instant-articles-sdk-extensions-in-php",
@@ -85,7 +84,7 @@
                 "instantarticles",
                 "sdk"
             ],
-            "time": "2017-06-26 19:59:19"
+            "time": "2017-06-26T19:59:19+00:00"
         },
         {
             "name": "facebook/facebook-instant-articles-sdk-php",
@@ -136,7 +135,7 @@
                 "instant",
                 "sdk"
             ],
-            "time": "2017-06-20 13:45:09"
+            "time": "2017-06-20T13:45:09+00:00"
         },
         {
             "name": "facebook/graph-sdk",
@@ -194,7 +193,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2017-04-20 14:15:02"
+            "time": "2017-04-20T14:15:02+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -247,7 +246,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-01 14:31:55"
+            "time": "2017-05-01T14:31:55+00:00"
         }
     ],
     "packages-dev": [
@@ -327,26 +326,30 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-05-22 02:43:20"
+            "time": "2017-05-22T02:43:20+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
-            "version": "0.11.0",
+            "version": "0.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git",
-                "reference": "407e4b85f547a5251185f89ceae6599917343388"
+                "reference": "8cadf48fa1c70b2381988e0a79e029e011a8f41c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress-Coding-Standards/WordPress-Coding-Standards/zipball/407e4b85f547a5251185f89ceae6599917343388",
-                "reference": "407e4b85f547a5251185f89ceae6599917343388",
+                "url": "https://api.github.com/repos/WordPress-Coding-Standards/WordPress-Coding-Standards/zipball/8cadf48fa1c70b2381988e0a79e029e011a8f41c",
+                "reference": "8cadf48fa1c70b2381988e0a79e029e011a8f41c",
                 "shasum": ""
             },
             "require": {
-                "squizlabs/php_codesniffer": "^2.8.1"
+                "php": ">=5.3",
+                "squizlabs/php_codesniffer": "^2.9.0 || ^3.0.2"
             },
-            "type": "library",
+            "suggest": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3"
+            },
+            "type": "phpcodesniffer-standard",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -363,7 +366,7 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2017-03-20 23:17:58"
+            "time": "2017-11-01T15:10:46+00:00"
         }
     ],
     "aliases": [],
